@@ -2,12 +2,12 @@ import { notFound, redirect } from 'next/navigation';
 
 const routes: Record<string, string> = {
   'read': '/approved-loader.html?p=home',
-  'write': '/approved-loader.html?p=home&jump=prompts',
+  'write': '/approved-loader.html?p=prompts',
   'featured-writer': '/approved-loader.html?p=featured',
   'books': '/approved-loader.html?p=books',
-  'prompts': '/approved-loader.html?p=home&jump=prompts',
+  'prompts': '/approved-loader.html?p=prompts',
   'nook': '/approved-loader.html?p=nook',
-  'membership': '/approved-loader.html?p=home&jump=member',
+  'membership': '/approved-loader.html?p=membership',
   'about': '/approved-loader.html?p=home',
   'coffee': '/approved-loader.html?p=coffee',
   'login': '/approved-loader.html?p=home'
