@@ -1,0 +1,1 @@
+Approved Ink Spot visual assets. Do not replace or reinterpret without explicit approval.
